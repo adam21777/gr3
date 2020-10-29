@@ -16,11 +16,11 @@ public class HomeController {
         return "index";
     }
 
-    @RequestMapping(value={",","/userRegister"}, method= RequestMethod.GET)
+    @RequestMapping(value={",","/register"}, method= RequestMethod.GET)
     public String userRegister(Model model){
 
         String message = "hello Spring boot";
         model.addAttribute("message",message);
-        return "index";
+        return "register";
     }
 }

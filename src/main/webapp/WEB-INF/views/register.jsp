@@ -1,6 +1,4 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <html lang="en">
 
 <head>
@@ -16,7 +14,7 @@
 <nav>
     <h1 class="title">mega-impra.pl</h1>
     <div class="empty"></div>
-    <button class="register" href="<c:url value="register.jsp"/>">Zarejestruj sie</button>
+    <button class="register">Zarejestruj sie</button>
     <button class="log">Zaloguj sie</button>
 
 </nav>
@@ -25,7 +23,7 @@
     <div class="bg">
         <div class="cover"></div>
         <div class="sentence">
-            <h2>Znajdz lub urzadz najlepsza impreze <br> w swoim zyciu!</h2>
+            <h2>test <br> test</h2>
             <h3>Kazda okazja jest dobra!</h3>
         </div>
         <div class="offer">
