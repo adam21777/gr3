@@ -14,7 +14,7 @@ public class UserRegister {
     @Autowired
     UserRepository userRepository;
 
-    @PostMapping(value={"/userRegister"}) //nazwa endpointa - taki samo powinien nazywac się plik .jsp w folderze webapp
+    @PostMapping(value={"/register"}) //nazwa endpointa - taki samo powinien nazywac się plik .jsp w folderze webapp
     public RedirectView postUserRegister(@ModelAttribute User newUser){
         User user = new User();
         user.setFirstName(newUser.getFirstName());
@@ -26,6 +26,6 @@ public class UserRegister {
 
         userRepository.save(user);
 
-        return new RedirectView("/userRegister");
+        return new RedirectView("/register");
     }
 }

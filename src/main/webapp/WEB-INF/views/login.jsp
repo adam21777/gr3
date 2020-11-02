@@ -23,7 +23,7 @@
     <div class="bg">
         <div class="cover"></div>
         <div class="sentence">
-            <h2>strona do rejestracji <br> test</h2>
+            <h2>strona do logowania <br> test</h2>
             <h3>Kazda okazja jest dobra!</h3>
         </div>
         <div class="offer">

@@ -14,10 +14,10 @@
 <body>
 
 <nav>
-    <h1 class="title">mega-impra.pl</h1>
+    <h1 class="title" onclick="window.location.href='/index'">mega-impra.pl</h1>
     <div class="empty"></div>
-    <button class="register" href="<c:url value="register.jsp"/>">Zarejestruj sie</button>
-    <button class="log">Zaloguj sie</button>
+    <button class="register" onclick="window.location.href='/register'">Zarejestruj sie</button>
+    <button class="log" onclick="window.location.href='/login'">Zaloguj sie</button>
 
 </nav>
 <section>

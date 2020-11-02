@@ -23,4 +23,12 @@ public class HomeController {
         model.addAttribute("message",message);
         return "register";
     }
+
+    @RequestMapping(value={",","/login"}, method= RequestMethod.GET)
+    public String userlogin(Model model){
+
+        String message = "hello Spring boot";
+        model.addAttribute("message",message);
+        return "login";
+    }
 }
