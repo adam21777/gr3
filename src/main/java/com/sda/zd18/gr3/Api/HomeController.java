@@ -1,4 +1,4 @@
-package com.sda.zd18.gr3.controller;
+package com.sda.zd18.gr3.Api;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
