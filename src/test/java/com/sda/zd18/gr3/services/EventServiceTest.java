@@ -22,11 +22,11 @@ class EventServiceTest {
     public void setUp(){
         EventDto event1 = new EventDto(null, "event1",LocalDate.now().toString(), EventAccess.PUBLIC.toString());
 
-        assertTrue(eventService.saveNewEvent(event1));
+        assertNotNull(eventService.saveNewEvent(event1));
     }
 
     @Test
     void findAllEvents() {
-        assertEquals(1,eventService.findAllEvents().size());
+        assertEquals(2,eventService.findAllEvents().size());
     }
 }
